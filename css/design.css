@@ -1,0 +1,52 @@
+body {
+	background-color: black;
+}
+
+.Profile {
+	border-radius: 100%;
+	margin-top: 12%;
+}
+
+p {
+	text-align: center;
+	font-size: 20px;
+	color: white;
+}
+
+.MainNav {
+	text-align: center;
+	margin-top: 10px;
+}
+
+.SubNav {
+	display: inline;
+	font-family: Lucida Console;
+}
+
+a {
+	display: inline;
+	margin: 8px;
+	text-align: center;
+}
+
+a:link, a:visited {
+  background-color: #f44336;
+  color: #FFE5D8;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: #F76728;
+}
+
+.Mainbg {
+  	position: absolute;
+  	left: 0px;
+  	top: 0px;
+  	z-index: -1;
+  	text-align: center;
+  	opacity: 0.8;
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="/Users/Jam/Documents/Personal Portfolio/CSS/design1.css">
+
+</head>
+<body>
+
+	<head>
+
+	<h3>A B O U T &nbsp M E</h3>
+
+	<h1 style="text-align: center;"><img src="/Users/Jam/Documents/Personal Portfolio/Images/Pic2.jpg" class="Profile" height="210px"></h1>
+
+	</head>
+
+	<img src="/Users/Jam/Documents/Personal Portfolio/Images/PurpleMountain.gif" class="Aboutpic" width="100%" height="55%">
+
+<br>
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+		<p class="info2"><b>"JAM"</b></p>
+    	<p class="info"><b>Name:</b> Jahmyyllah Aneega Muarip</p>
+    	<p class="info"><b>Grade & Section:</b> 8 - Pasteur</p>
+    	
+</div>
+
+<div class="mySlides fade">
+  	<p class="info"><b>Elementary:</b> South City Elementary School | 2014 - 2020</p>
+  	<p class="info2"><b>Secondary:</b> Ramon Teves Pastor Memorial - Dumaguete Science High School | 2020 - Current</p>
+</div>
+
+<div class="mySlides fade">
+  	<p class="info"><b>Hobbies/Interest:</b>
+	<p class="info">Drawing (both Digital and Manual)
+  	<p class="info">Reading Books/Novels/Manga/Manhwa
+  	<p class="info">Playing Chess
+  	</p>
+  	</ul>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">❮</a>
+<a class="next" onclick="plusSlides(1)">❯</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+<a class="fixedButton" href="Personal Portfolio Website_Muarip.html">
+         <div class="roundedFixedBtn">
+         	<p class="home">Home</p>
+         </div>
+      </a>
+
+</body>
+</html>

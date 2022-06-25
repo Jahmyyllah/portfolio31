@@ -1,0 +1,97 @@
+h3 {
+	text-align: center;
+	color: white;
+	font-family: Lucida Console;
+	font-size: 31px;
+}
+
+.bg {
+	position: absolute;
+  	left: 0px;
+  	top: 0px;
+  	z-index: -1;
+  	text-align: center;
+  	opacity: 0.8;
+  	margin-top: 10%;
+}
+
+       .fixedButton{
+            position: fixed;
+            bottom: 0px;
+            right: 0px; 
+            padding: 5px;
+            margin-right: 15px;
+            margin-bottom: 15px;
+        }
+        .roundedFixedBtn{
+          height: 40px;
+          width: 80px;  
+          color: white;
+          text-align: center;
+          cursor: pointer;
+        }
+
+a:link, a:visited {
+  background-color: #0B4B14;
+  color: #FCF8FE;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: #1F813D;
+}
+
+p.home {
+	display: inline-block;
+	margin-top: 13px;
+	font-family: lucida console;
+	font-size: 16px;
+}
+
+.container {
+	font-family: Lucida Console;
+	text-align: center;
+}
+
+.facebook {
+	border-radius: 10px;
+}
+
+.gmail {
+	border-radius: 10px;
+	color: white;
+	background-color: #0B4B14;
+}
+
+.call {
+	border-radius: 10px;
+	color: white;
+	background-color: #0B4B14;
+}
+
+.copyright {
+	position: absolute;
+	bottom: 0;
+	color: white;
+	margin-left: 550px;
+	margin-bottom: 120px;
+	border-radius: 10px;
+	font-family: Lucida Console;
+	text-align: center;
+}
+
+.message1 {
+	background-color: #0B4B14;
+	text-align: center;
+	border-radius: 30%;
+}
+
+.message {
+	margin-top: 3%;
+	margin-left: 15%;
+	margin-right: 15%;
+	text-align: center;
+	color: white;
+}
